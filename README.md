@@ -1,35 +1,24 @@
-# Fairplay-open-source
+# Fairplay Club scanner
 
 
-Best free MCBE automod base.
+Build with Fairplay Global ban database API
+
+Steps
+
+1.) Install node + npm
+2.) unzip folder
+3.) fill out the config.json
+4.) cd into the terminal
+5.) node index.js
 
 
-Features
-| **Name**                                   | ⚡ Fairplay Open Src ⚡ | 🗡️ Fairplay AC 🗡️ | 🐢 Realmbot.dev 🐢 |
-| ------------------------------------------ | ----------------------- | ------------ | ---------------------- |
-| Open source                                | ✅                      | ❌           | ❌                    |
-| Free                                       | ✅                      | ✅           | ❌                    |
-| Supports custom modules                    | ✅                      | ❌           | ❌                    |
-| Self hosted                                | ✅                      | ❌           | ❌                    |
-| Anti Crasher                               | ❌                      | ✅           | ❌                    |
-| Under 800ms Authentication speeds          | ✅                      | ✅           | ❌                    |
-| Modular Auth to prevent rate limits        | ✅                      | ✅           | ❌                    |
-| 99.99% uptime                              | ✅                      | ✅           | ❌                    |
-| Realm manager built in                     | ❌                      | ✅           | ✅                    |
-| Realm to discord                           | ❌                      | ✅           | ✅                    |
-| AI Auth support                            | ❌                      | ⚠️           | ❌                    |
-| Global ban Database                        | ✅                      | ✅           | ❌                    |
-
-
-Docs are at https://docs.economyplus.solutions/
-
-
-
-1.) get a API key at our discord, discord.gg/anticheat
-2.) install node, and then run npm i in the folder
-3.) fill out config.json
-
-
+To use in your own project
+Feed your realmcode, fairplay key, and a webhook in which you want to log into the function
+```js
+var clubscan = require('./modules/clubscan.js');
+const result = clubscan.clubscan(realmcode, key, webhook)
+console.log(result)
+```
 
 Copyright (c) <year>, <copyright holder>
 All rights reserved.
