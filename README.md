@@ -16,8 +16,7 @@ To use in your own project
 Feed your realmcode, fairplay key, and a webhook in which you want to log into the function
 ```js
 var clubscan = require('./modules/clubscan.js');
-const result = clubscan.clubscan(realmcode, key, webhook)
-console.log(result)
+clubscan.clubscan(realmcode, key, webhook)
 ```
 
 Copyright (c) <year>, <copyright holder>
