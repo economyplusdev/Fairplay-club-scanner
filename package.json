@@ -1,0 +1,22 @@
+{
+  "name": "Fairplaysrc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.30",
+    "bedrock-protocol": "^3.22.0",
+    "discord-command-cooldown": "^1.0.8",
+    "discord-webhook-node": "^1.1.8",
+    "edit-json-file": "^1.7.0",
+    "jimp": "^0.16.2",
+    "prismarine-auth": "^1.7.0",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
