@@ -97,9 +97,6 @@ module.exports = {
 
                         // console.log(res?.data)
 
-                        if (res?.data?.flagged == false) {
-                            return
-                        }
 
 
                         const reason = res?.data?.data
@@ -108,7 +105,7 @@ module.exports = {
                                 headers: auth
                             }).then((user) => {
                                 const username = user?.data?.profileUsers[0]?.settings[0]?.value
-                                console.log("User: ", username, "\nXUID: ", xuid, "\nLast seen: ", Math.round(hoursinsce), "Hours ago\nreason:", reason)
+                                console.log("User: ", username, "\nXUID: ", xuid, "\nLast seen: ", Math.round(hoursinsce), "Hours ago\nReason:", reason)
                                 const embed = new MessageBuilder()
                 .setDescription(`
 User Flagged!
