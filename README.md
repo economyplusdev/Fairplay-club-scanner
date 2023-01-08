@@ -5,11 +5,11 @@ Build with Fairplay Global ban database API
 
 Steps
 
-1.) Install node + npm
-2.) unzip folder
-3.) fill out the config.json
-4.) cd into the terminal
-5.) node index.js
+1.) Install node + npm<br />
+2.) unzip folder<br />
+3.) fill out the config.json<br />
+4.) cd into the terminal<br />
+5.) node index.js<br />
 
 
 To use in your own project
