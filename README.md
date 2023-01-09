@@ -19,6 +19,9 @@ var clubscan = require('./modules/clubscan.js');
 clubscan.clubscan(realmcode, key, webhook)
 ```
 
+If no one is flagged in your guild/club, the terminal will exit without a response!
+
+
 Copyright (c) <year>, <copyright holder>
 All rights reserved.
 
